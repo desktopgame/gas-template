@@ -4,6 +4,18 @@ GAS用のtypescript,babel,webpack設定をまとめたもの。
 * gas-template/.clasp.json
 * gas-template/src/appsscript.json
 
+## セットアップ
+````
+npm install
+clasp clone プロジェクトID
+mv appsscript.json src/appsscript.json
+````
+
+また、`.clasp.json`に以下の属性を追加する。
+````
+"rootDir": "dist"
+````
+
 ## ビルド
 ````
 npm run build
