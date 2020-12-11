@@ -1,0 +1,4 @@
+node_modules
+dist
+appsscript.json
+.clasp.json
